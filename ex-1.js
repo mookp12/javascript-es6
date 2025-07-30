@@ -12,5 +12,6 @@ let additionalProperties = {
 };
 
 // Start coding here
+let mergedProfile = {...studentProfile, ...additionalProperties,};
 
-console.log(newStudentProfile);
+console.log(mergedProfile);
